@@ -8,5 +8,5 @@ fs.readFileSync(filename).toString().split('\n').forEach(function (line) {
 });
 
 function solution(line){
-  return line.toLowerCase();
+  return line ? line.toLowerCase() : "";
 }
